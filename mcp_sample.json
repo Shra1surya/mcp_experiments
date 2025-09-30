@@ -1,0 +1,15 @@
+{
+  "mcpServers": {
+    "mySearchSheets": {
+      "command": "python3",
+      "args": [ "/path-to-file/server.py" ],
+      "env": {
+        "TAVILY_API_KEY": "tvly-devKey...",
+        "GOOGLE_APPLICATION_CREDENTIALS": "/path-to-keyfile/google_sheets_key.json",
+        "http_proxy": "URL:PORT",
+        "https_proxy": "URL:PORT"
+      }
+    }
+  }
+}
+
